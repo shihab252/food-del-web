@@ -6,6 +6,7 @@ const Cart = () => {
   const { cartItems, food_list, removeFromCart } = useContext(StoreContext);
   
   // Define a fixed delivery fee of 80 Taka
+  //try
   const deliveryFee = 80;
 
   // Calculate the subtotal by summing up the price * quantity for each item in the cart
